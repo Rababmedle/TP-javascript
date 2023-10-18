@@ -14,3 +14,9 @@ console.log(ST.length);
 //Number
 let age = 4 * 5;
 console.log("Mon age est " + age);
+//function
+function f1() {
+  console.log("Resultat function");
+}
+f1();
+//tableau
