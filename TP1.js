@@ -20,3 +20,23 @@ function f1() {
 }
 f1();
 //tableau
+const t1 = [
+  {
+    age: 20,
+    nom: "Rabab",
+  },
+  {
+    age: 12,
+    nom: "mariem",
+  },
+];
+//t1.nom = "autre nom";
+console.log(t1);
+
+const number = [12, 1, 2, 3, 4, 5, 6];
+console.log(number[0]);
+//boucle
+for (let i = 0; i < t1.length; i++) {
+  const t = t1[i];
+  console.log(i, t1);
+}
