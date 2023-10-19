@@ -10,7 +10,7 @@ console.log("constant:", const1);
 //String
 const ST = "abc";
 console.log(ST[1]);
-
+console.log(ST.length);
 //Number
 let age = 4 * 5;
 console.log("Mon age est " + age);
