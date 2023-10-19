@@ -18,6 +18,7 @@ console.log("Mon age est " + age);
 function f1() {
   console.log("Resultat function");
 }
+//l'appel
 f1();
 //tableau
 const t1 = [
