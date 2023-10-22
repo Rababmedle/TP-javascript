@@ -26,3 +26,18 @@ const person = {
 };
 console.log(person["firstName"]);
 console.log(person.firstName);
+const numbers = [45, 4, 9, 16, 25];
+
+for (let number of numbers) {
+  console.log(number);
+}
+
+console.log("Utilisation de for...in :");
+for (let index in numbers) {
+  console.log(numbers[index]);
+}
+
+(function (a, b) {
+  const sum = a + b;
+  console.log("La somme est : " + sum);
+})(2, 3);
